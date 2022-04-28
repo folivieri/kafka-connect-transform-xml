@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+	<env:Body>
+		<wd:Get_Organizations_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v38.0">
+			<wd:Request_Criteria>
+				<wd:Organization_Type_Reference
+					wd:Descriptor="Supervisory">
+					<wd:ID wd:type="WID">6d1dffd570454dccafb641e820714ebf</wd:ID>
+					<wd:ID wd:type="Organization_Type_ID">SUPERVISORY</wd:ID>
+				</wd:Organization_Type_Reference>
+				<wd:Include_Inactive>0</wd:Include_Inactive>
+				<wd:Transaction_Log_Criteria>
+					<wd:Transaction_Date_Range_Data>
+						<wd:Updated_From>2022-03-12T23:00:00.000-08:00</wd:Updated_From>
+						<wd:Updated_Through>2022-03-19T16:40:07.674-07:00
+						</wd:Updated_Through>
+					</wd:Transaction_Date_Range_Data>
+				</wd:Transaction_Log_Criteria>
+			</wd:Request_Criteria>
+			<wd:Response_Filter>
+				<wd:Count>999</wd:Count>
+			</wd:Response_Filter>
+			<wd:Response_Group>
+				<wd:Include_Roles_Data>0</wd:Include_Roles_Data>
+				<wd:Include_Hierarchy_Data>1</wd:Include_Hierarchy_Data>
+				<wd:Include_Supervisory_Data>1</wd:Include_Supervisory_Data>
+				<wd:Include_Staffing_Restrictions_Data>0
+				</wd:Include_Staffing_Restrictions_Data>
+			</wd:Response_Group>
+			<wd:Response_Results>
+				<wd:Total_Results>1</wd:Total_Results>
+				<wd:Total_Pages>1</wd:Total_Pages>
+				<wd:Page_Results>1</wd:Page_Results>
+				<wd:Page>1</wd:Page>
+			</wd:Response_Results>
+			<wd:Response_Data>
+				<wd:Organization>
+					<wd:Organization_Reference
+						wd:Descriptor="Sales Operations Group">
+						<wd:ID wd:type="WID">0bc597f27d1d4c21866d27d97dc7e92d</wd:ID>
+						<wd:ID wd:type="Organization_Reference_ID">SUPERVISORY_Sales_Operations_Group</wd:ID>
+					</wd:Organization_Reference>
+					<wd:Organization_Data>
+						<wd:Reference_ID>SUPERVISORY_Sales_Operations_Group
+						</wd:Reference_ID>
+						<wd:Name>Sales Operations</wd:Name>
+						<wd:Include_Manager_in_Name>0</wd:Include_Manager_in_Name>
+						<wd:Include_Organization_Code_in_Name>0
+						</wd:Include_Organization_Code_in_Name>
+						<wd:Organization_Type_Reference
+							wd:Descriptor="Supervisory">
+							<wd:ID wd:type="WID">6d1dffd570454dccafb641e820714ebf</wd:ID>
+							<wd:ID wd:type="Organization_Type_ID">SUPERVISORY</wd:ID>
+						</wd:Organization_Type_Reference>
+						<wd:Organization_Subtype_Reference
+							wd:Descriptor="Group">
+							<wd:ID wd:type="WID">1c9465d72c4c4138b1b13204f0e6a1aa</wd:ID>
+							<wd:ID wd:type="Organization_Subtype_ID">Group</wd:ID>
+						</wd:Organization_Subtype_Reference>
+						<wd:Availibility_Date>2000-01-01T00:00:00.000-08:00
+						</wd:Availibility_Date>
+						<wd:Last_Updated_DateTime>2022-03-19T20:25:06.467-07:00
+						</wd:Last_Updated_DateTime>
+						<wd:Inactive>0</wd:Inactive>
+						<wd:Manager_Reference
+							wd:Descriptor="Mark Navarro">
+							<wd:ID wd:type="WID">652bfd2b36bf4a47b79a6a7d944419cc</wd:ID>
+							<wd:ID wd:type="Employee_ID">21091</wd:ID>
+						</wd:Manager_Reference>
+						<wd:Leadership_Reference
+							wd:Descriptor="Mark Navarro">
+							<wd:ID wd:type="WID">652bfd2b36bf4a47b79a6a7d944419cc</wd:ID>
+							<wd:ID wd:type="Employee_ID">21091</wd:ID>
+						</wd:Leadership_Reference>
+						<wd:Organization_Owner_Reference
+							wd:Descriptor="Logan McNeil">
+							<wd:ID wd:type="WID">3aa5550b7fe348b98d7b5741afc65534</wd:ID>
+							<wd:ID wd:type="Employee_ID">21001</wd:ID>
+						</wd:Organization_Owner_Reference>
+						<wd:Organization_Visibility_Reference
+							wd:Descriptor="Everyone">
+							<wd:ID wd:type="WID">9c875610c4fc496499e39741b6541dbc</wd:ID>
+						</wd:Organization_Visibility_Reference>
+						<wd:External_URL_Reference
+							wd:Descriptor="Supervisory Website">
+							<wd:ID wd:type="WID">bded0ac1ef8e44ffbeed22df14090d03</wd:ID>
+							<wd:ID wd:type="URL">http://www.workday.com/###</wd:ID>
+						</wd:External_URL_Reference>
+						<wd:External_IDs_Data>
+							<wd:ID wd:System_ID="WD-I">2500$93</wd:ID>
+							<wd:ID wd:System_ID="WD-WID">0bc597f27d1d4c21866d27d97dc7e92d
+							</wd:ID>
+						</wd:External_IDs_Data>
+						<wd:Hierarchy_Data>
+							<wd:Top-Level_Organization_Reference
+								wd:Descriptor="Global Modern Services">
+								<wd:ID wd:type="WID">ef7a0ad4065e47bf83cb076399fc1dcc</wd:ID>
+								<wd:ID wd:type="Organization_Reference_ID">SUPERVISORY_Global_Modern_Services</wd:ID>
+							</wd:Top-Level_Organization_Reference>
+							<wd:Superior_Organization_Reference
+								wd:Descriptor="Sales">
+								<wd:ID wd:type="WID">50577df7ae5c4292a969e8a64c8650ed</wd:ID>
+								<wd:ID wd:type="Organization_Reference_ID">SUPERVISORY_Sales</wd:ID>
+							</wd:Superior_Organization_Reference>
+						</wd:Hierarchy_Data>
+						<wd:Supervisory_Data>
+							<wd:Staffing_Model>Position Management</wd:Staffing_Model>
+							<wd:Location_Reference
+								wd:Descriptor="San Francisco">
+								<wd:ID wd:type="WID">d13a7c46a06443c4a33c09afbdf72c73</wd:ID>
+								<wd:ID wd:type="Location_ID">San_Francisco</wd:ID>
+							</wd:Location_Reference>
+							<wd:Organization_Assignments_Data>
+								<wd:Organization_Type_Reference
+									wd:Descriptor="Company">
+									<wd:ID wd:type="WID">bf2ee002746641f182bfcae4416419bd</wd:ID>
+									<wd:ID wd:type="Organization_Type_ID">COMPANY</wd:ID>
+								</wd:Organization_Type_Reference>
+								<wd:Organization_Reference
+									wd:Descriptor="Global Modern Services, Inc. (USA)">
+									<wd:ID wd:type="WID">cb550da820584750aae8f807882fa79a</wd:ID>
+									<wd:ID wd:type="Organization_Reference_ID">Global_Modern_Services_Inc_USA</wd:ID>
+									<wd:ID wd:type="Company_Reference_ID">Global_Modern_Services_Inc_USA</wd:ID>
+								</wd:Organization_Reference>
+							</wd:Organization_Assignments_Data>
+							<wd:Organization_Assignments_Data>
+								<wd:Organization_Type_Reference
+									wd:Descriptor="Cost Center">
+									<wd:ID wd:type="WID">9d07b8f1d4e24685ac2c967eb86dc512</wd:ID>
+									<wd:ID wd:type="Organization_Type_ID">COST_CENTER</wd:ID>
+								</wd:Organization_Type_Reference>
+								<wd:Organization_Reference
+									wd:Descriptor="71000 Sales Operations">
+									<wd:ID wd:type="WID">83990ea357124d59a3ff26faffdce558</wd:ID>
+									<wd:ID wd:type="Organization_Reference_ID">71000_Sales_Operations</wd:ID>
+									<wd:ID wd:type="Cost_Center_Reference_ID">71000_Sales_Operations</wd:ID>
+								</wd:Organization_Reference>
+							</wd:Organization_Assignments_Data>
+							<wd:Organization_Assignments_Data>
+								<wd:Organization_Type_Reference
+									wd:Descriptor="Region">
+									<wd:ID wd:type="WID">4532ac6e09f044fa9031bfcd2e4450c5</wd:ID>
+									<wd:ID wd:type="Organization_Type_ID">REGION</wd:ID>
+								</wd:Organization_Type_Reference>
+								<wd:Organization_Reference
+									wd:Descriptor="Headquarters - Corporate">
+									<wd:ID wd:type="WID">2a99f6b9d77e45d6ba6061cde1575384</wd:ID>
+									<wd:ID wd:type="Organization_Reference_ID">Headquarters_Corporate</wd:ID>
+									<wd:ID wd:type="Region_Reference_ID">Headquarters_Corporate</wd:ID>
+								</wd:Organization_Reference>
+							</wd:Organization_Assignments_Data>
+						</wd:Supervisory_Data>
+					</wd:Organization_Data>
+				</wd:Organization>
+			</wd:Response_Data>
+		</wd:Get_Organizations_Response>
+	</env:Body>
+</env:Envelope>
